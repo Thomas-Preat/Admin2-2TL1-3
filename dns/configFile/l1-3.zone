@@ -1,13 +1,16 @@
-$ORIGIN l1-3.ephec-ti.be.
+$ORIGIN l1-3.ephec-ti.be. 
 $TTL 3600
-@       IN SOA  ns.l1-3.ephec-ti.be. hostmaster.l1-3.ephec-ti.be. (
-        2025032001 ; Serial
-        3600       ; Refresh
-        1800       ; Retry
-        604800     ; Expire
-        86400      ; Minimum TTL
+@	IN SOA	ns.l1-3.ephec-ti.be. hostmaster.l1-3.ephec-ti.be. (
+	2025032302 ; Serial
+	3600	   ; Refresh
+	1800       ; Retry
+	604800     ; Expire
+	86400      ; Minimum TTL
 )
-@       IN NS   ns.l1-3.ephec-ti.be.
-ns      IN A    54.36.183.216
-www     IN A    54.36.183.216
+@	IN A	54.36.183.216
+@	IN NS	ns.l1-3.ephec-ti.be.
+ns	IN A	54.36.183.216
+www	IN A    54.36.183.216
 blog    IN CNAME www
+
+_acme-challenge	IN	TXT	"e2jEvhGLxuEDzVj5pNrjWHRdsxTZ8icKL9uzELv7I2k"
