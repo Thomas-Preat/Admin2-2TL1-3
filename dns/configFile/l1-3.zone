@@ -9,7 +9,7 @@ $TTL 3600
 )
 @	IN A	54.36.183.216
 @	IN NS	ns.l1-3.ephec-ti.be.
-ns	IN A	54.36.183.216
+
 www	IN A    54.36.183.216
 blog    IN CNAME www
 
